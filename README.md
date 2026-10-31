@@ -331,3 +331,7 @@ cargo run -- samples/test.md
 ```
 
 `samples/` has a `.txt`, `.md` and `.php` file for trying the editor and its highlighting.
+
+## License
+
+[MIT](LICENSE) © 2026 Alberindo Loffrè

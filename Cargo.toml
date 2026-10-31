@@ -3,6 +3,8 @@ name = "ime"
 version = "0.1.1"
 edition = "2021"
 description = "Intuitive macOS editor"
+license = "MIT"
+repository = "https://github.com/albedev/ime"
 
 [dependencies]
 crossterm = "0.29"
