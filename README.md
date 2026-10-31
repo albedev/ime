@@ -18,17 +18,17 @@ ime notes.md
 
 ## Install
 
-ime is built from source with Cargo for now (a Homebrew tap is planned).
-
 ```sh
-# 1. Rust toolchain (skip if you already have cargo)
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
-# 2. ime
-cargo install --git https://github.com/albedev/ime
+brew install albedev/tap/ime
 ```
 
-The binary goes to `~/.cargo/bin/ime`. Open a new terminal tab so it is on your `PATH`.
+Universal binary for Apple Silicon and Intel Macs. To update: `brew upgrade ime`.
+
+**From source** (needs a Rust toolchain from [rustup](https://rustup.rs)):
+
+```sh
+cargo install --git https://github.com/albedev/ime
+```
 
 ## Usage
 
