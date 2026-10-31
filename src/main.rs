@@ -197,8 +197,8 @@ impl App {
                 ('e', false) => self.ed.go(M::LineEnd, shift),
                 ('k', false) => self.ed.delete(M::LineEnd),
                 ('u', false) => self.ed.delete(M::LineStart),
-                ('c', true) => self.copy(false),
-                ('x', true) => self.copy(true),
+                ('c', _) => self.copy(false),
+                ('x', _) => self.copy(true),
                 ('v', true) => {
                     if let Some(s) = pbpaste() {
                         self.ed.insert(&s)
